@@ -7,7 +7,7 @@ const Container = () => {
             <p id="name">Irene Novelo</p>
             <p>Full Stack Web Developer</p>
             <div className="about-container">
-                <img src="irene.jpg" alt="Profile Photo" />
+                <img src="img/irene.jpg" alt="Profile" />
                 <div className="about-text">
                     <p id="aboutme">About Me</p>
                     <p id="text-title">Full Stack Web Developer</p>

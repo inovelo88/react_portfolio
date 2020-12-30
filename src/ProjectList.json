@@ -1,0 +1,29 @@
+[
+    {
+           "id": 1,
+           "title": "Note Taking App",
+           "desc": "A note taking application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.",
+           "image": "img/notetaker.jpg",
+           "keywords": "HTML / CSS / Bootstrap / Javascript / Express ",
+           "demoLink": "https://guarded-meadow-02213.herokuapp.com"
+          
+       },
+       {
+        "id": 2,
+        "title": "Work Day Scheduler",
+        "desc": "A calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+        "image": "img/workday.jpg",
+        "keywords": "HTML / CSS / Bootstrap / Javascript / Express ",
+        "demoLink": "https://inovelo88.github.io/workday_scheduler/"
+       
+    },
+    {
+        "id": 3,
+        "title": "Emmployee Tracker",
+        "desc": "A solution for managing a company's employees using node, inquirer, and MySQL. This project includes a database schema containing three tables.",
+        "image": "img/employeetracker.jpg",
+        "keywords": "HTML / CSS / Bootstrap / Javascript / Express ",
+        "demoLink": "https://github.com/inovelo88/employee_tracker"
+       
+    }
+   ]

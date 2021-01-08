@@ -4,7 +4,7 @@ import Box from "./Box";
 
 class Projects extends Component{
     state = {
-        // Setting this.state.avengersList to the avengers json array
+    
         ProjectList
     }
     render () {
@@ -16,6 +16,7 @@ class Projects extends Component{
                 <p>Projects</p>
                 <p>Below are three projects created using HTML, CSS, JavaScript, Node and React.</p>
             </div>
+            <div className="box-deck">
             {this.state.ProjectList.map(project => (
                 <Box title={project.title}
                     id={project.id}
@@ -25,6 +26,7 @@ class Projects extends Component{
                     keyword={project.keywords}
                 />
             ))}
+            </div>
         </div>
     )
 }

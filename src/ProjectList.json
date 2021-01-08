@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "title": "Emmployee Tracker",
+        "title": "Employee Tracker",
         "desc": "A solution for managing a company's employees using node, inquirer, and MySQL. This project includes a database schema containing three tables.",
         "image": "img/employeetracker.jpg",
         "keywords": "HTML / CSS / Bootstrap / Javascript / Express ",

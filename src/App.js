@@ -1,23 +1,33 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./Components/Navbar";
-import Container from "./Components/Container";
-import Projects from "./Components/Projects";
-import Social from "./Components/Social";
-import Footer from "./Components/Footer";
-
-
-// import {BrowserRouer as Router, Route, Switch} from "react-router-dom"
+import Navbar from "./components/Navbar";
+import Container from "./components/Container";
+import Projects from "./components/Projects";
+import Social from "./components/Social";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div className="App">
-    <Navbar />
-    <Container />
-    <Projects />
-    <Social />
-    <Footer />
+      <Navbar />
+      <Router>
+        <Switch>
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/" render={() => {
+            return (
+             <>
+               <Container /> 
+            <Projects />
+            </>)
+          }} />
+        </Switch>
+      </Router>
+      <Social />
+      <Footer />
     </div>
+
   );
 }
 
